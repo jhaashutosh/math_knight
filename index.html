@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Math Knight</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="splash-screen">
+        <div class="loading-bar">
+            <div class="loading-bar-content">
+            </div>
+        </div>
+    </div>
+    <audio id="bgmusic" controls loop hidden>
+        <source src="sounds/bgmusic.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="main-container">
+
+        <div class="background">
+
+            <div class="title">
+                <span>
+                    MATH<br>KNIGHT
+                </span>
+            </div>
+
+            <div class="play-button">
+                <span>
+                    &#9654;
+                </span>
+            </div>
+            <div class="backarrow">
+                <img src="Images/backarrow.png" alt="">
+            </div>
+
+            <div class="knight stillknight">
+                <img src="images/knightspritesheet.png" alt="">
+            </div>
+            <div class="knight runknight display-none">
+                <img src="images/knightrun.png" alt="">
+            </div>
+            <div class="knight attackknight display-none">
+                <img src="images/knightattack.png" alt="">
+            </div>
+            <div class="knight deadknight display-none">
+                <img src="images/deadknight.png" alt="">
+            </div>
+
+            <div class="zombie">
+                <img src="images/zombie.png" alt="">
+            </div>
+            <div class="deadzombie display-none">
+                <img src="images/deadzombie.png" alt="">
+            </div>
+            <div class="walkzombie display-none">
+                <img src="images/walkzombie.png" alt="">
+            </div>
+            <div class="attackzombie display-none">
+                <img src="images/attackzombie.png" alt="">
+            </div>
+
+            <div class="title choose-operator">
+                <span>
+                    CHOOSE THE MATHEMATICAL OPERATOR
+                </span>
+            </div>
+
+            <div class="operators grid">
+                <div class="add operator">
+                    <h1>&#43;</h1>
+                </div>
+                <div class="subtract operator">
+                    <h1>&#8722;</h1>
+                </div>
+                <div class="multiply operator">
+                    <h1>&#215;</h1>
+                </div>
+                <div class="row2">
+                    <div class="divide operator">
+                        <h1>&#247;</h1>
+                    </div>
+                    <div class="mixed operator">
+                        <h1>&#43;</h1>
+                        <h1>&#8722;</h1>
+                        <h1>&#215;</h1>
+                        <h1>&#247;</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question-box">
+                <h1></h1>
+            </div>
+
+            <div class="options grid">
+                <div class="option">
+                    <h1 class="option1">&#43;</h1>
+                </div>
+                <div class="option">
+                    <h1 class="option2">&#8722;</h1>
+                </div>
+                <div class="option">
+                    <h1 class="option3">&#215;</h1>
+                </div>
+                <div class="option">
+                    <h1 class="option4">&#215;</h1>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
